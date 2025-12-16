@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterLukeHere</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <main class="content-container">
+        <div class="glass-card" id="main-card">
+            
+            <div id="home-content">
+                <header>
+                    <img src="images/site/profilepicture.png" class="profile-photo-placeholder">
+                    
+                    <h1>MasterLuke</h1>
+                    <p class="tagline">Programmer | Artist | Gamer</p>
+                </header>
+                
+                <section class="bio-snippet">
+                    <p></p>
+                </section>
+                
+                <footer class="social-links">
+                    <a href="#" class="link-item">Portfolio</a>
+                    <button class="link-item" onclick="toggleView(true)">Personal</button>
+                    <a href="#" class="link-item">Statuses</a>
+                </footer>
+            </div>
+
+            <div id="personal-content" class="hidden">
+                <button class="back-btn" onclick="toggleView(false)">← Back to Home</button>
+                
+                <nav class="main-tabs-nav" id="main-tabs-nav"></nav>
+
+                <div class="filter-controls">
+                    <input type="text" id="search-input" placeholder="Zoeken op titel..." oninput="handleFilterChange()" class="search-input">
+                </div>
+
+                <div id="tab-content-area" class="tab-content-area">
+                    </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="data.js"></script> <script src="script.js"></script>
+</body>
+</html>
