@@ -1,12 +1,12 @@
 const personalData = {
     Games: {
-        statuses: ['Playing', 'Played (no end)', 'On Hold','Completed', 'Dropped', 'Plan to Play'],
+        statuses: ['Playing', 'Replayable', 'On Hold','Completed', 'Dropped', 'Plan to Play'],
         content: [
             {
                 id: 1,
-                status: 'Played (no end)',
+                status: 'Replayable',
                 title: 'Brawlhalla',
-                description: 'Rating: 6.5/10 - PC - Peak rank: Gold - Mostly custom games with friends.',
+                description: 'Rating: 6.5/10 - PC',
                 image: 'images/games/brawlhalla.png', 
                 link: 'https://store.steampowered.com/app/291550/Brawlhalla/'
             },
@@ -14,7 +14,7 @@ const personalData = {
                 id: 2,
                 status: 'On Hold',
                 title: 'Elden Ring',
-                description: 'Rating: 8.7/10 - PC - Dont know when im gonna continue...',
+                description: 'Rating: 8.7/10 - PC',
                 image: 'images/games/eldenring.png',
                 link: 'https://store.steampowered.com/app/1245620/ELDEN_RING/'
             },
@@ -22,31 +22,31 @@ const personalData = {
                 id: 3,
                 status: 'Completed',
                 title: 'Celeste',
-                description: 'Rating: 7.5/10 - PC - Finished all chapters and some optional content.',
+                description: 'Rating: 7.5/10 - PC',
                 image: 'images/games/celeste.png',
                 link: 'https://store.steampowered.com/app/504230/Celeste/'
             },
             {
                 id: 4,
-                status: 'Played (no end)',
+                status: 'Replayable',
                 title: 'Bloons TD Battles',
-                description: 'Rating: 7/10 - Phone - Basically only played this in school and when i was about 6-7.',
+                description: 'Rating: 7/10 - Phone',
                 image: 'images/games/btdb.png',
                 link: 'https://store.steampowered.com/app/444640/Bloons_TD_Battles/'
             },
             {
                 id: 5,
-                status: 'Played (no end)',
+                status: 'Replayable',
                 title: 'Block post',
-                description: 'Rating: 4/10 - PC - I have no idea why i played this during lockdown.',
+                description: 'Rating: 4/10 - PC',
                 image: 'images/games/blockpost.png',
                 link: 'https://store.steampowered.com/app/706990/BLOCKPOST_LEGACY/'
             },
             {
                 id: 6,
-                status: 'Played (no end)',
+                status: 'Replayable',
                 title: 'VRChat',
-                description: 'Rating: 5/10 - PC - No comment.',
+                description: 'Rating: 5/10 - PC',
                 image: 'images/games/vrchat.png',
                 link: 'https://store.steampowered.com/app/438100/VRChat/'
             },
@@ -54,7 +54,7 @@ const personalData = {
                 id: 7,
                 status: 'On Hold',
                 title: 'Skyrim',
-                description: 'Rating: ? - PC - Not feeling it.',
+                description: 'Rating: ? - PC',
                 image: 'images/games/skyrim.png',
                 link: 'https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'
             },
@@ -62,9 +62,25 @@ const personalData = {
                 id: 8,
                 status: 'On Hold',
                 title: 'Undertale',
-                description: 'Rating: 8/10 - PC - Not feeling it.',
-                image: 'images/games/skyrim.png',
-                link: 'https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/'
+                description: 'Rating: 8/10 - PC',
+                image: 'images/games/undertale.png',
+                link: 'https://store.steampowered.com/app/391540/Undertale/'
+            },
+            {
+                id: 9,
+                status: 'Replayable',
+                title: 'Monopoly Poker',
+                description: 'Rating: 6.5/10 - PC',
+                image: 'images/games/monopolypoker.jpg',
+                link: 'https://store.steampowered.com/app/1474700/MONOPOLY_Poker/'
+            },
+            {
+                id: 10,
+                status: 'Replayable',
+                title: 'Stick Fight',
+                description: 'Rating: 6.5/10 - PC',
+                image: 'images/games/stickfight.jpg',
+                link: 'https://store.steampowered.com/app/674940/Stick_Fight_The_Game/'
             },
         ]
     },
